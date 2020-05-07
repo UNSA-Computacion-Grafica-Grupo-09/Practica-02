@@ -2,8 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
+imagen = cv2.imread('contr2.jpg')
 
-###################################################################################3
+#realizmos el histograma de la imagen original 
+histOriginal = cv2.calcHist([imagen], [0], None, [256], [0, 256])
+
 img = cv2.imread('contr2.jpg', cv2.IMREAD_GRAYSCALE)
 Outlier = cv2.imread('contr2.jpg', cv2.IMREAD_GRAYSCALE)
 
