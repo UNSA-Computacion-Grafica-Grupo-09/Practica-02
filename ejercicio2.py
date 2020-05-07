@@ -19,7 +19,7 @@ cv2.imshow('Outlier',Outlier)
 cv2.imwrite('Out.jpg',Outlier)
 histimg = cv2.calcHist([img], [0], None, [256], [0, 256])
 histOut = cv2.calcHist([Outlier], [0], None, [256], [0, 256])
-#####################################################################
+ 
 
 plt.plot(histOut, color='red' )
 plt.plot(histOriginal, color = 'black')
