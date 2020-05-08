@@ -6,4 +6,4 @@
 
 * Milagros Celia Cruz Mamani
 * Carolina Boniee Chavez Lopez
-* Williams Nifla
+* Williams Fidel Nifla Catasi
